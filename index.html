@@ -319,17 +319,16 @@
     
 
 
-<div class="modal-overlay">
+<div class="modal-overlay is-open">
   <div class="modal">
     
 
-  <button class="popup-close">
-  <!-- <div class="button-wrapper"> -->
+  <button class="popup-close">  
     <svg class="svg-close" width="8" height="8">
     <use href="./images/icons.svg#icon-close"></use>
   </svg>  
-<!-- </div> -->
   </button>
+
   <h3 class="popup">Leave your contacts and we will call you back</h3>
   <form class="modal-window" name="modal_window" novalidate>
 <label class="form-label">
@@ -392,7 +391,6 @@ placeholder="Text input"></textarea>
 </div>
 
 
-
     <footer class="footer">
         <div class="container footer-elements">
             <div class="footer-block">
@@ -433,11 +431,30 @@ placeholder="Text input"></textarea>
                 </a>
               </li>
           </ul>
-     
-            </div>
-
         </div>
+
+        <div class="footer-block">
+       <p class="footer-p">Subscribe</p>
+  <form class="subscribe">
+              <label class="form-label">
+        <input 
+        class="input-in-footer" 
+        name="subscribe" 
+        tibe="email" 
+        placeholder="E-mail" />
+              </label>
+             <button 
+             type="button" 
+             class="button-in-footer">
+            
+             Subscribe  <svg class="icon-airplane" width="24" height="24">
+              <use href="./images/icons.svg#icon-Frame"></use>
+            </svg>
+  </button>   
+  </div>
+</form>
+  </div>
     </footer>
 
-</body>
+    </body>
 </html>

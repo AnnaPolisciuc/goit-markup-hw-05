@@ -668,6 +668,7 @@ pointer-events: none;
     background-color: #2E2F42;
     color: white;
     padding-left: 16px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     }
 
 .input-in-footer::placeholder {
@@ -678,6 +679,10 @@ pointer-events: none;
     letter-spacing: 0.04em;
     color: #FFFFFF;
 }
+
+.input-in-footer:focus {
+    border: 1px solid #4D5AE5;
+ }
 
 .button-in-footer {
     border-radius: 4px;

@@ -391,9 +391,9 @@
     </footer>
 
 
-    <div class="modal-overlay">
+    <div class="modal-overlay is-open">
       <div class="modal">
-      <button class="popup-close">  
+      <button type="button" class="popup-close">  
         <svg class="svg-close" width="8" height="8">
         <use href="./images/icons.svg#icon-close"></use>
       </svg>  
@@ -401,7 +401,8 @@
     
       <p class="popup">Leave your contacts and we will call you back</p>
       <form class="modal-window" name="modal_window" novalidate>
-    <label 
+    <div class="form-in-modal">
+        <label 
     for="username" 
     class="form-label">
       Name
@@ -475,6 +476,8 @@
         I accept the terms and conditions of the <a href="#">Privacy Policy</a>
     </label>
     </div>
+
+  </div>
     
     <button type="submit" class="button">Send</button>
     </form>
